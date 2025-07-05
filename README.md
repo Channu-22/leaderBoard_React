@@ -1,12 +1,51 @@
-# React + Vite
+# 🏆 Leaderboard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React-based leaderboard application that allows users to manage and track scores with a beautiful background interface.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Players**: Enter first name, last name, country, and score
+- **Auto-Sort**: Leaderboard automatically sorts by highest score
+- **Score Management**: Increment (+5) or decrement (-5) player scores
+- **Delete Players**: Remove players from the leaderboard
+- **Responsive Design**: Adaptive background image for different screen sizes
+- **Country Selection**: Choose from multiple countries (India, Australia, England, New Zealand, West Indies, South Africa)
 
-## Expanding the ESLint configuration
+## 🚀 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - Frontend framework
+- **React Hooks** - useState for state management
+- **Tailwind CSS** - Styling and responsive design
+
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Channu-22/leaderBoard_React
+cd jagannath
+```
+
+
+```
+
+## 📖 Usage
+
+1. **Add a Player**: 
+   - Fill in the first name, last name
+   - Select a country from the dropdown
+   - Enter a score
+   - Click "Add" button
+
+2. **Modify Scores**:
+   - Click "+5" to increase a player's score
+   - Click "-5" to decrease a player's score
+   - Leaderboard automatically re-sorts after score changes
+
+3. **Delete Players**:
+   - Click the delete (🗑️) icon to remove a player
+
+## 🏗️ Component Structure
+
+```
+
+
